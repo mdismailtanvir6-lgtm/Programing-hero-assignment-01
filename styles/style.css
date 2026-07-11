@@ -244,24 +244,125 @@ nav > ul {
   list-style: disc;
 }
 .secure-card-features-item::marker {
-  color: #0d6efd; 
+  color: #0d6efd;
 }
-.secure-spot-card-pro{
-  background-color: #0D1B2A;
+.secure-spot-card-pro {
+  background-color: #0d1b2a;
 }
-.secure-spot-card-pro-price-part{
+.secure-spot-card-pro-price-part {
   border-color: rgba(255, 255, 255, 0.1);
 }
-.secure-spot-card-pro-type{
-  color: #93C5FD;
+.secure-spot-card-pro-type {
+  color: #93c5fd;
 }
-.secure-spot-card-pro-price{
+.secure-spot-card-pro-price {
   color: #fff;
 }
-.secure-spot-card-people{
+.secure-spot-card-people {
   color: rgba(255, 255, 255, 0.5);
 }
-.secure-card-pro-features-item{
+.secure-card-pro-features-item {
   color: rgba(255, 255, 255, 0.8);
 }
 /* Secure Your Spot section style end */
+
+/* Confirm Seat Section start  */
+#confirm-seat-section {
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.confirm-seat-header {
+  max-width: 700px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.confirm-seat-heading {
+  margin-bottom: 16px;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0d1b2a;
+  line-height: 1.2;
+}
+
+.confirm-seat-subheading {
+  font-size: 1rem;
+  color: #575757;
+  line-height: 1.8;
+}
+
+.confirm-seat-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+  padding: 60px;
+  background: #0d1b2a;
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+}
+
+.confirm-seat-info-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.confirm-seat-info-summary {
+  margin-bottom: 35px;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #d1d5db;
+}
+
+.confirm-seat-details-btn a {
+  padding: 20px 30px;
+  color: #fff;
+  /* text-decoration: none;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: 0.3s ease; */
+}
+.confirm-seat-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.confirm-seat-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.confirm-seat-form-group label {
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #f8fafc;
+}
+
+.confirm-seat-form-group input {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1rem;
+  color: #0d1b2a;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.confirm-seat-form-group input:focus {
+  border-color: #2563eb;
+}
+
+.confirm-seat-submit-btn:hover {
+  color: #ffffff;
+}
+
+
+/* Confirm Seat Section end  */
