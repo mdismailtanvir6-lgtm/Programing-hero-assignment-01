@@ -176,3 +176,92 @@ nav > ul {
   color: #575757;
 }
 /* Meet the Speakers section style end */
+
+/* Secure Your Spot section style start */
+#secure-spot-section {
+  margin-bottom: 80px;
+}
+.secure-spot-top-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.secure-spot-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0d1b2a;
+}
+.secure-spot-subHeading {
+  font-size: 1rem;
+  color: #575757;
+}
+.secure-spot-card-group {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.secure-spot-card {
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #fff;
+}
+.secure-card-price-part {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+.secure-card-type {
+  font-size: 13px;
+  font-weight: 600;
+  color: #888888;
+}
+.secure-card-price {
+  font-size: 44px;
+  font-weight: 700;
+  color: #0d1b2a;
+  margin-top: 8px;
+}
+.secure-card-people {
+  font-size: 13px;
+  color: #888888;
+  margin-top: 4px;
+}
+.secure-card-features-part {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.secure-card-features-item {
+  font-size: 14px;
+  color: #333333;
+  list-style: disc;
+}
+.secure-card-features-item::marker {
+  color: #0d6efd; 
+}
+.secure-spot-card-pro{
+  background-color: #0D1B2A;
+}
+.secure-spot-card-pro-price-part{
+  border-color: rgba(255, 255, 255, 0.1);
+}
+.secure-spot-card-pro-type{
+  color: #93C5FD;
+}
+.secure-spot-card-pro-price{
+  color: #fff;
+}
+.secure-spot-card-people{
+  color: rgba(255, 255, 255, 0.5);
+}
+.secure-card-pro-features-item{
+  color: rgba(255, 255, 255, 0.8);
+}
+/* Secure Your Spot section style end */
