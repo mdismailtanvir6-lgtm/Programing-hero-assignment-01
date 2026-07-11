@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <title>Programing-hero-assignment-01</title>
@@ -37,20 +37,85 @@
     </header>
     <!-- header end  -->
 
-    <!-- hero section start -->
-    <section class="hero-section">
-      <!-- hero-overlay -->
-      <div class="hero-overlay"></div>
-      <div class="hero-content">
+    <main>
+      <!-- hero section start -->
+      <section id="hero-section">
+        <!-- hero-overlay -->
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
           <h1 class="hero-heading">Code. <span>Connect.</span> Create</h1>
           <p class="hero-subHeading">
             Join 4,000+ engineers, founders, and builders at the premier
             developer conference of 2026. Three days of cutting-edge talks,
             hands-on workshops, and meaningful connections.
           </p>
-        <button class="common-btn hero-btn">Register Now</button>
-      </div>
-    </section>
-    <!-- hero section end -->
+          <button class="common-btn hero-btn">Register Now</button>
+        </div>
+      </section>
+      <!-- hero section end -->
+
+      <!-- Meet the Speakers section start -->
+      <section id="speakers-section">
+        <div class="container">
+          <h2 class="speakers-heading">Meet the Speakers</h2>
+          <div class="speakers-group">
+            <!-- speakers card 01 -->
+            <div class="speakers-card">
+              <picture>
+                <img src="./assets/andrej.png" alt="andrej.png" />
+              </picture>
+
+              <div class="speakers-info">
+                <p class="speakers-category">AI / ML</p>
+                <p class="speakers-name">Andrej Karpathy</p>
+                <p class="speakers-title">Pretraining team, Anthropic</p>
+              </div>
+            </div>
+
+            <!-- speakers card 02 -->
+            <div class="speakers-card">
+              <picture>
+                <img src="./assets/demis.png" alt="andrej.png" />
+              </picture>
+
+              <div class="speakers-info">
+                <p class="speakers-category">Cloud & DevOps</p>
+                <p class="speakers-name">Demis Hassabis</p>
+                <p class="speakers-title">
+                  Co-Founder and CEO, Google DeepMind
+                </p>
+              </div>
+            </div>
+
+            <!-- speakers card 03 -->
+            <div class="speakers-card">
+              <picture>
+                <img src="./assets/gary.png" alt="andrej.png" />
+              </picture>
+
+              <div class="speakers-info">
+                <p class="speakers-category">Frontend</p>
+                <p class="speakers-name">Gary Marcus</p>
+                <p class="speakers-title">Staff Engineer, Vercel</p>
+              </div>
+            </div>
+
+            <!-- speakers card 04 -->
+            <div class="speakers-card">
+              <picture>
+                <img src="./assets/mustafa.png" alt="andrej.png" />
+              </picture>
+
+              <div class="speakers-info">
+                <p class="speakers-category">Security</p>
+                <p class="speakers-name">Mustafa Suleyman</p>
+                <p class="speakers-title">CEO of Microsoft AI</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Meet the Speakers section end -->
+    </main>
   </body>
 </html>

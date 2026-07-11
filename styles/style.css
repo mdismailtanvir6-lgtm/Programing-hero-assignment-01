@@ -9,6 +9,7 @@ body {
   background-color: #fff;
   font-family: "Inter", sans-serif;
   font-size: 16px;
+  font-weight: 400;
   color: #575757;
 }
 
@@ -25,6 +26,11 @@ a {
   text-decoration: none;
   color: #575757;
 }
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 button {
   border: none;
@@ -33,7 +39,7 @@ button {
   border-radius: 6px;
   padding: 10px 16px;
   transition: all 0.5s;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .common-btn {
@@ -81,7 +87,7 @@ nav > ul {
 /* header style end */
 
 /* hero section style start */
-.hero-section {
+#hero-section {
   background: url("../assets/banner.jpg") center/cover no-repeat;
   height: calc(100vh - 100px);
   width: 100%;
@@ -117,11 +123,56 @@ nav > ul {
   max-width: 600px;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.9);
-    line-height: 1.3;
-  
+  line-height: 1.3;
 }
 .hero-btn {
   margin-top: 100px;
   padding: 15px 50px;
 }
 /* hero section style end */
+
+/* Meet the Speakers section style start */
+#speakers-section {
+  margin: 80px 0px 140px;
+}
+.speakers-heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+}
+.speakers-group {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem;
+}
+.speakers-card {
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.speakers-info {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.speakers-category {
+  font-size: 12px;
+  font-weight: 600;
+  color: #2563eb;
+}
+.speakers-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0d1b2a;
+}
+.speakers-title {
+  font-size: 14px;
+  color: #575757;
+}
+/* Meet the Speakers section style end */
